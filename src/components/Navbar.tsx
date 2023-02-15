@@ -1,4 +1,5 @@
 import { BurgerMenu, Logo } from '@/components'
+import clsx from 'clsx'
 import { useState } from 'react'
 
 export const Navbar = () => {
@@ -6,13 +7,15 @@ export const Navbar = () => {
   return (
     <nav>
       {/* Container */}
-      <div className='flex items-center justify-between container mx-auto px-6 py-11'>
+      <div className={clsx(
+        'flex items-center justify-between container mx-auto px-6 pt-8 pb-10',
+        'md:px-6 md:pt-10 md:pb-[53px]',
+        'lg:py-12',
+      )}>
         {/* Logo */}
-        <div>
-          <a href="/">
-            <Logo />
-          </a>
-        </div>
+        <a href="/">
+          <Logo />
+        </a>
         {/* Menu */}
         <ul className="hidden md:flex md:justify-between">
           <li className='uppercase font-bold tracking-wide pr-8'>
