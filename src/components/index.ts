@@ -4,9 +4,11 @@ export { Logo } from '@/components/icons/Logo';
 // UI components
 export { BurgerMenu } from '@/components/ui/BurgerMenu';
 export { Button } from '@/components/ui/Button';
+
 // Components
 export { Navbar } from '@/components/Navbar';
 export { Hero } from '@/components/Hero';
+export { Collection } from '@/components/Collection';
 
 
 // Pages
