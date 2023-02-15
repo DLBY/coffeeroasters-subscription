@@ -6,7 +6,7 @@ export const Navbar = () => {
   return (
     <nav>
       {/* Container */}
-      <div className='flex container mx-auto px-6'>
+      <div className='flex items-center justify-between container mx-auto px-6 py-11'>
         {/* Logo */}
         <div>
           <a href="/">
@@ -14,15 +14,15 @@ export const Navbar = () => {
           </a>
         </div>
         {/* Menu */}
-        <ul className="hidden md:block">
-          <li>
-            <a href="/">Home</a>
+        <ul className="hidden md:flex md:justify-between">
+          <li className='uppercase font-bold tracking-wide pr-8'>
+            <a className="text-xs text-grey hover:text-darkGreyBlue transition-colors	" href="/">Home</a>
           </li>
-          <li>
-            <a href="/about">About</a>
+          <li className='uppercase font-bold tracking-wide text-grey pr-8 hover:text-darkGreyBlue transition-colors	'>
+            <a className="text-xs text-grey hover:text-darkGreyBlue" href="/about">About us</a>
           </li>
-          <li>
-            <a href="/plan">Plan</a>
+          <li className='uppercase font-bold tracking-wide text-grey hover:text-darkGreyBlue'>
+            <a className="text-xs text-grey hover:text-darkGreyBlue transition-colors	" href="/plan">Create your plan</a>
           </li>
         </ul>
         {/* Mobile Menu */}
