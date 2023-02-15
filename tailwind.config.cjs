@@ -11,6 +11,7 @@ module.exports = {
       current: 'currentColor',
       white: colors.white,
       black: colors.black,
+      cyan: '#66D2CF',
       darkCyan: '#0E8784',
       darkGreyBlue: '#333D4B',
       paleOrange: '#FDD6BA',
@@ -19,9 +20,15 @@ module.exports = {
     },
     fontFamily: {
       serif: ['Fraunces-Black', 'serif'],
-      sans: ['Barlow', 'sans-serif'],
+      sans: ['Barlow-Regular', 'sans-serif'],
     },
-    extend: {},
+    extend: {
+      backgroundImage: {
+        'hero-mobile': "url('/src/assets/images/home/mobile/image-hero-coffeepress.jpg')",
+        'hero-tablet': "url('/src/assets/images/home/tablet/image-hero-coffeepress.jpg')",
+        'hero-desktop': "url('/src/assets/images/home/desktop/image-hero-coffeepress.jpg')",
+      },
+    },
   },
   variants: {},
   plugins: [],
