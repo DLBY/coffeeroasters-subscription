@@ -18,13 +18,13 @@ export const Navbar = () => {
         </a>
         {/* Menu */}
         <ul className="hidden md:flex md:justify-between">
-          <li className='uppercase font-bold tracking-wide pr-8'>
+          <li className='uppercase font-bold tracking-wider pr-8'>
             <a className="text-xs text-grey hover:text-darkGreyBlue transition-colors	" href="/">Home</a>
           </li>
-          <li className='uppercase font-bold tracking-wide text-grey pr-8 hover:text-darkGreyBlue transition-colors	'>
+          <li className='uppercase font-bold tracking-wider text-grey pr-8 hover:text-darkGreyBlue transition-colors	'>
             <a className="text-xs text-grey hover:text-darkGreyBlue" href="/about">About us</a>
           </li>
-          <li className='uppercase font-bold tracking-wide text-grey hover:text-darkGreyBlue'>
+          <li className='uppercase font-bold tracking-wider text-grey hover:text-darkGreyBlue'>
             <a className="text-xs text-grey hover:text-darkGreyBlue transition-colors	" href="/plan">Create your plan</a>
           </li>
         </ul>
