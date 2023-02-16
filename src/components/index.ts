@@ -9,6 +9,7 @@ export { Button } from '@/components/ui/Button';
 export { Navbar } from '@/components/Navbar';
 export { Hero } from '@/components/Hero';
 export { Collection } from '@/components/Collection';
+export { ChooseUs } from '@/components/ChooseUs';
 
 
 // Pages

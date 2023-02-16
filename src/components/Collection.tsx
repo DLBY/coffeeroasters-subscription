@@ -3,7 +3,7 @@ import { collection } from '../data/collection'
 export const Collection = () => {
   return (
     <section className="container mx-auto px-6">
-      <div className=' '>
+      <div>
         <h2 className="text-center text-[40px] md:text-[96px] xl:text-[150px] leading-[72px] font-serif font-extrabold text-transparent bg-gradient-to-b from-[#83888f] to-[#FEFCF7] bg-clip-text mt-[120px] md:mt-[144px] xl:mt-[136px] mb-[13px] md:-mb-4">our collection</h2>
         <div className="grid grid-cols-1 justify-items-center gap-8 md:gap-[30px] xl:grid-cols-4 mx-auto w-[80%]" >
           {collection.map((item) => (
