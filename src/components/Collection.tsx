@@ -4,7 +4,7 @@ export const Collection = () => {
   return (
     <section className="container mx-auto px-6">
       <div className=' '>
-        <h2 className="text-center text-[40px] md:text-[96px] xl:text-[150px] leading-[72px] font-serif font-extrabold text-transparent bg-gradient-to-b from-[#83888f] to-[#FEFCF7] bg-clip-text mt-5 md:mt-10 mb-[13px] md:-mb-4">our collection</h2>
+        <h2 className="text-center text-[40px] md:text-[96px] xl:text-[150px] leading-[72px] font-serif font-extrabold text-transparent bg-gradient-to-b from-[#83888f] to-[#FEFCF7] bg-clip-text mt-[120px] md:mt-[144px] xl:mt-[136px] mb-[13px] md:-mb-4">our collection</h2>
         <div className="grid grid-cols-1 justify-items-center gap-8 md:gap-[30px] xl:grid-cols-4 mx-auto w-[80%]" >
           {collection.map((item) => (
             <div className='flex flex-col md:flex-row xl:flex-col items-center xl:justify-center text-center md:text-left first:mt-0 mt-12 md:mt-0 md:gap-[36px]'>
