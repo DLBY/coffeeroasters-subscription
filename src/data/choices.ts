@@ -1,6 +1,6 @@
-import bean from '@/assets/images/home/desktop/image-coffee-bean.svg';
-import gift from '@/assets/images/home/desktop/image-gift.svg';
-import truck from '@/assets/images/home/desktop/image-transportation.svg';
+import bean from '@/assets/images/home/desktop/icon-coffee-bean.svg';
+import gift from '@/assets/images/home/desktop/icon-gift.svg';
+import truck from '@/assets/images/home/desktop/icon-truck.svg';
 
 export const choices = [
   {

@@ -4,6 +4,7 @@ export { Logo } from '@/components/icons/Logo';
 // UI components
 export { BurgerMenu } from '@/components/ui/BurgerMenu';
 export { Button } from '@/components/ui/Button';
+export { VerticalCard } from '@/components/ui/Cards/VerticalCard';
 
 // Components
 export { Navbar } from '@/components/Navbar';
