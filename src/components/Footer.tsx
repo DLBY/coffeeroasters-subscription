@@ -3,15 +3,15 @@ import clsx from 'clsx';
 
 export const Footer = () => {
   return (
-    <footer className={clsx("px-10 pb-[72px]", "xl:px-20 xl:pb-[88px]")}>
-      <div className={clsx("bg-darkGreyBlue px-14 py-[54px]", "xl:px-[85px]")}>
-        <div className={clsx("md:flex md:flex-col md:items-center md:justify-between", "xl:flex-row")}>
+    <footer className={clsx("px-10 pb-[72px]", "lg:px-20 xl:pb-[88px]")}>
+      <div className={clsx("bg-darkGreyBlue px-14 py-[54px]", "lg:px-[85px]")}>
+        <div className={clsx("md:flex md:flex-col md:items-center md:justify-between", "lg:flex-row")}>
           <div className="flex justify-center items-center">
             <a href="#">
               <WhiteLogo />
             </a>
           </div>
-          <div className="my-12 md:mt-8 xl:my-0">
+          <div className="my-12 md:mt-8 lg:my-0">
             <ul className={clsx("flex flex-col uppercase", "md:flex-row md:justify-center")}>
               <li className="text-grey text-center hover:text-lightCream transition-colors text-[14px] leading-[15px] tracking-[0.92px]">
                 <a href="/">Home</a>
