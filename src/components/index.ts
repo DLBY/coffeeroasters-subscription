@@ -11,6 +11,8 @@ export { Navbar } from '@/components/Navbar';
 export { Hero } from '@/components/Hero';
 export { Collection } from '@/components/Collection';
 export { ChooseUs } from '@/components/ChooseUs';
+export { Steps } from '@/components/Steps';
+export { HowItWorks } from '@/components/HowItWorks';
 
 
 // Pages

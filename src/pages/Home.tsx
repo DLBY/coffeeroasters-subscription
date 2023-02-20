@@ -1,4 +1,4 @@
-import { Hero, Collection, ChooseUs } from "@/components";
+import { Hero, Collection, ChooseUs, HowItWorks } from "@/components";
 
 export const Home = () => {
   return (
@@ -8,6 +8,7 @@ export const Home = () => {
     coffees from our best roasters delivered directly to your door, at your schedule." cta={{ text: "Create your plan", link: "/plan" }} className="bg-cover bg-hero-mobile text-white md:bg-hero-tablet lg:bg-hero-desktop" />
       <Collection />
       <ChooseUs />
+      <HowItWorks />
     </>
   );
 }
