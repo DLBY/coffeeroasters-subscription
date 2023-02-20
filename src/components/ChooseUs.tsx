@@ -4,7 +4,7 @@ import clsx from 'clsx';
 
 export const ChooseUs = () => {
   return (
-    <section className={clsx("choose-us px-6 mt-[120px]", "md:mt-[144px] md:px-10 xl:mt-[200px]")}>
+    <section className={clsx("choose-us px-6 mt-[120px]", "md:mt-[144px] md:px-10 xl:mt-[200px] xl:px-20")}>
       <div className={clsx(
         "relative bg-darkGreyBlue text-lightCream text-center px-6 pt-16 h-[900px] pb-[368px] rounded-[10px]",
         "md:pt-14 md:px-[74px] md:pb-[317px] xl:pt-[100px] xl:px-[370px] md:h-[573px] lg:h-[577px]"
@@ -20,7 +20,9 @@ export const ChooseUs = () => {
         </p>
       </div>
       <div className={clsx(
-        " px-6 relative grid grid-cols-1 gap-6 -mt-[620px] md:-mt-[320px] xl:-mt-[260px] md:gap-10 xl:grid-cols-3 xl:gap-14"
+        "px-6 relative grid grid-cols-1 gap-6 -mt-[620px]",
+        "md:-mt-[320px] md:gap-10 md:px-12",
+        "xl:-mt-[260px] xl:grid-cols-3 xl:gap-[30px] xl:px-[85px]"
       )}>
         {choices.map((choice, index) => (
           <VerticalCard
