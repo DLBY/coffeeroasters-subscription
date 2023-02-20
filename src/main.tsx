@@ -5,7 +5,7 @@ import {
   RouterProvider,
 } from 'react-router-dom';
 import './assets/styles/index.css';
-import { Home, About, Plan, ErrorPage, Navbar } from '@/components';
+import { Home, About, Plan, ErrorPage, Navbar, Footer } from '@/components';
 
 const router = createBrowserRouter([
   {
@@ -30,6 +30,7 @@ ReactDOM.createRoot(document.getElementById('root') as HTMLElement).render(
     <div className="bg-lightCream">
       <Navbar />
       <RouterProvider router={router} />
+      <Footer />
     </div>
   </React.StrictMode>
 );

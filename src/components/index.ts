@@ -1,13 +1,17 @@
 // Icons components
 export { Logo } from '@/components/icons/Logo';
+export { WhiteLogo } from '@/components/icons/WhiteLogo';
+export { IconFacebook } from '@/components/icons/IconFacebook';
+export { IconInstagram } from '@/components/icons/IconInstagram';
+export { IconTwitter } from '@/components/icons/IconTwitter';
 
 // UI components
 export { BurgerMenu } from '@/components/ui/BurgerMenu';
 export { Button } from '@/components/ui/Button';
 export { VerticalCard } from '@/components/ui/Cards/VerticalCard';
 
-// Components
 export { Navbar } from '@/components/Navbar';
+export { Footer } from '@/components/Footer';
 export { Hero } from '@/components/Hero';
 export { Collection } from '@/components/Collection';
 export { ChooseUs } from '@/components/ChooseUs';
