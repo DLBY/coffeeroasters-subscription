@@ -5,7 +5,7 @@ import { useState } from 'react'
 export const Navbar = () => {
   const [isOpen, setIsOpen] = useState(false)
   return (
-    <nav>
+    <nav className="bg-lightCream sticky top-0">
       {/* Container */}
       <div className={clsx(
         'flex items-center justify-between container mx-auto px-6 pt-8 pb-10',
